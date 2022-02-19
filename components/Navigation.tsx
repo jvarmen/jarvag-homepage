@@ -5,7 +5,11 @@ const Navigation = () => {
     return (
         <div className="py-5 bg-gradient-to-b from-gray-900 to-transparent flex text-white">
             <div className='container lg:w-3/5 mx-auto flex justify-between items-center'>
-                <div className="text-white lowercase font-medium text-lg">JVARMEN</div>
+                <div className="text-white lowercase font-medium text-lg">
+                    <Link href={'/'}>
+                        JVARMEN
+                    </Link>
+                </div>
                 <div className="flex text-white font-medium items-center ">
                     <ul className="list-none">
                         <li className="inline-block mr-4 transition-all hover:text-gray-300">

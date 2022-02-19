@@ -14,8 +14,8 @@ const Hero = () => {
                 <p className="text-2xl uppercase text-orange-700 font-medium">
                     Hi There
                 </p>
-                <p className="text-5xl capitalize text-white mb-4">
-                    I&quot;m Jaiver Vargas
+                <p className="text-5xl text-white mb-4">
+                    I&apos;m Jaiver Vargas
                 </p>
                 <Divider color='rgb(194 65 12)' />
                 <p className="text-2xl capitalize text-white mb-4">

@@ -92,7 +92,7 @@ const ProjectsList = () => {
                     project.category.some((cat) => cat.includes(filter)))
                     .slice(0, 4)
                     .map((proj: project, idx: number) => (
-                        <Link key={idx} href={`/project/${encodeURIComponent(proj.id)}`}>
+                        <Link key={idx} href={`/project/${encodeURIComponent(proj.id)}`} passHref>
                             <div className='w-full p-4 bg-gray-800 hover:bg-gray-700 cursor-pointer transition-colors duration-300 border-2 rounded-lg border-none text-left drop-shadow-md'>
                                 <div className='text-xl font-bold text-yellow-200'>{proj.name}</div>
                                 <div className='text-sm mt-2'>{proj.description}</div>

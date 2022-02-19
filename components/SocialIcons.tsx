@@ -17,7 +17,7 @@ const SocialIcons = (props: Props) => {
             <a href="#" target='_blank'>
                 <GoMarkGithub className='inline-block hover:opacity-50 transition-all cursor-pointer' />
             </a>
-            <a href="mailto:vargasjmen@gmail.com" target='_blank'>
+            <a href="mailto:vargasjmen@gmail.com" target="_blank" rel="noreferrer">
                 <FaPaperPlane className='inline-block hover:opacity-50 transition-all cursor-pointer' />
             </a>
         </div>

@@ -13,9 +13,9 @@ const Home: NextPage = () => {
   return (
     <>
       <div className="w-full h-screen">
-        <div className="sticky cursor-pointer bg-yellow-200 hover:bg-yellow-300 py-2 text-sm text-center text-black font-medium">
+        {/* <div className="sticky cursor-pointer bg-yellow-200 hover:bg-yellow-300 py-2 text-sm text-center text-black font-medium">
           Sigueme en instagram como Jvargasmen
-        </div>
+        </div> */}
         <Navigation />
         <Hero />
       </div>

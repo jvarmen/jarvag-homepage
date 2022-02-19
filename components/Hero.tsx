@@ -1,4 +1,3 @@
-import React from 'react';
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Divider from './Divider';
@@ -27,7 +26,7 @@ const Hero = () => {
                     Hi There
                 </p>
                 <p className="text-5xl capitalize text-white mb-4">
-                    I'm Wolfram Alpha
+                    I'm Jaiver Vargas
                 </p>
                 <Divider color='rgb(194 65 12)' />
                 <p className="text-2xl capitalize text-white mb-4">
